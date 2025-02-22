@@ -12,7 +12,7 @@ let manifest = {
             "type": "image/png" 
         }, 
         { 
-            "src": "https://700535.myshoptet.com/user/documents/upload/logo/192x192.png", 
+            "src": "https://700535.myshoptet.com/user/documents/upload/logo/512x512.png", 
             "sizes": "512x512",
             "type": "image/png" 
         } 
