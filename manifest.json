@@ -1,0 +1,26 @@
+let manifest = { 
+    "name": "NIGHTDRINK",
+    "short_name": "ND",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff", 
+    "theme_color": "#ff6600", 
+    "icons": [ 
+        { 
+            "src": "https://700535.myshoptet.com/user/documents/upload/logo/192x192.png", 
+            "sizes": "192x192", 
+            "type": "image/png" 
+        }, 
+        { 
+            "src": "https://700535.myshoptet.com/user/documents/upload/logo/192x192.png", 
+            "sizes": "512x512",
+            "type": "image/png" 
+        } 
+    ] 
+};
+let manifestBlob = new Blob([JSON.stringify(manifest)], { type: 'application/json' }); 
+let manifestURL = URL.createObjectURL(manifestBlob);
+let link = document.createElement('link'); 
+link.rel = 'manifest';
+link.href = manifestURL; 
+document.head.appendChild(link);
