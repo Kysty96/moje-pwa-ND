@@ -8,28 +8,7 @@
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "{
-  "name": "Můj e-shop",
-  "short_name": "E-shop",
-  "description": "Přidejte náš e-shop na plochu pro rychlý přístup.",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
-  "icons": [
-    {
       "src": "https://700535.myshoptet.com/user/documents/upload/logo/192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "https://700535.myshoptet.com/user/documents/upload/logo/512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
-}
-",
       "sizes": "192x192",
       "type": "image/png"
     },
