@@ -1,28 +1,42 @@
-let manifest = { 
-    "name": "NIGHTDRINK",
-    "short_name": "ND",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#ffffff", 
-    "theme_color": "#000000", 
-    "orientation": "portrait-primary",
-    "scope": "/",
-    "icons": [ 
-        { 
-            "src": "https://700535.myshoptet.com/user/documents/upload/logo/192x192.png", 
-            "sizes": "192x192", 
-            "type": "image/png" 
-        }, 
-        { 
-            "src": "https://700535.myshoptet.com/user/documents/upload/logo/512x512.png", 
-            "sizes": "512x512",
-            "type": "image/png" 
-        } 
-    ] 
-};
-let manifestBlob = new Blob([JSON.stringify(manifest)], { type: 'application/json' }); 
-let manifestURL = URL.createObjectURL(manifestBlob);
-let link = document.createElement('link'); 
-link.rel = 'manifest';
-link.href = manifestURL; 
-document.head.appendChild(link);
+{
+  "name": "NIGHTDRINK",
+  "short_name": "ND",
+  "description": "Přidejte náš e-shop na plochu pro rychlý přístup.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "{
+  "name": "Můj e-shop",
+  "short_name": "E-shop",
+  "description": "Přidejte náš e-shop na plochu pro rychlý přístup.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://700535.myshoptet.com/user/documents/upload/logo/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://700535.myshoptet.com/user/documents/upload/logo/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://700535.myshoptet.com/user/documents/upload/logo/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
