@@ -2,7 +2,7 @@
   "name": "NIGHTDRINK",
   "short_name": "ND",
   "description": "Přidejte náš e-shop na plochu pro rychlý přístup.",
-  "start_url": "/",
+  "start_url": "https://700535.myshoptet.com/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
